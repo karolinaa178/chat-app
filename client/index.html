@@ -32,7 +32,7 @@
       </ul>
 
       <!-- messages form -->
-      <form id="add-messages-form">
+      <form id="add-messages-form" autoComplete="off">
         <input class="text-input" type="text" placeholder="Type your message here" id="message-content" autocomplete="off">
         <button class="btn" type="submit">Send</button>
       </form>
@@ -40,6 +40,7 @@
     </section>
 
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
   <script src="app.js" type="module"></script>
 </body>
 </html>
